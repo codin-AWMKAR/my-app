@@ -27,8 +27,9 @@
     align-items: center;
 
 }
-.her-img h1{
-    font-size: 2.4rem;
+.hero-img h1{
+    font-size: 5.4rem;
+    font-family:monospace
 
 }
 .hero-img p{

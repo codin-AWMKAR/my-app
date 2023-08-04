@@ -35,9 +35,9 @@ const Footer = () => {
             <h4>About Me</h4>
             <p>Hi, This is me Omkar Mandal. I am a freelancer and frontend developer.I enjoy discussing new projects and designing interactive Websites.</p>
            <div className="social">
-            <FaInstagram size={30} style={{color:"#fff" , marginRight: "1rem"}}/>
-            <FaLinkedin size={30} style={{color:"#fff" , marginRight: "1rem"}}/>
-            <FaTwitter size={30} style={{color:"#fff" , marginRight: "1rem"}}/>
+           <a href="https://www.instagram.com/kryptoknight12/" ><FaInstagram  size={30} style={{color:"#fff" , marginRight: "1rem"}}/></a>
+           <a href="https://www.linkedin.com/in/omkar-mandal-335889225" ><FaLinkedin size={30} style={{color:"#fff" , marginRight: "1rem"}}/></a>
+           <a href="https://twitter.com/OmkarMandal18" ><FaTwitter size={30} style={{color:"#fff" , marginRight: "1rem"}}/></a>
            </div>
          </div>
       </div>

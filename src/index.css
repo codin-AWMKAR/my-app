@@ -7,8 +7,26 @@
  font-family: "outfit", sans-serif;
 }
 
-body{
-    background: #000;
+
+
+body {
+  background: #000;
+  width: 100vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/* Hide the vertical scrollbar */
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: transparent;
 }
 
 h1,h4,p,a{
@@ -20,17 +38,16 @@ ul{
     list-style-type:none;
 
 }
-.btn{
-    padding:12px 32px;
+.btn {
+    padding: 0.75rem 2rem;
     font-size: 1rem;
     text-transform: uppercase;
-    background: rgb(0,255,127);
+    background: rgb(0, 255, 127);
     color: #222;
     border: 1px solid #fff;
-    font-weight:600;
+    font-weight: 600;
     cursor: pointer;
-
-}
+  }
 
 .btn-light{
     background:transparent;
@@ -43,3 +60,9 @@ ul{
     color: #fff;
     transition: 0.3s;
 }
+@media screen and (max-width: 768px) {
+    .btn {
+      padding: 0.5rem 1.5rem;
+      font-size: 0.9rem;
+    }
+  }

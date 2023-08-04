@@ -9,7 +9,8 @@ const Work = () => {
   return (
     <div>
       <div className="work-container">
-        <h1 className="project-heading">Projects</h1>
+        <h1 className="project-heading" style={{fontfamily:"monospace",
+      fontSize:"5.4rem"}} >Projects</h1>
         <div className="project-container">
            {WorkCardData.map((val,ind) =>{
             return(

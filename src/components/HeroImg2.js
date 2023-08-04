@@ -1,6 +1,6 @@
 import "./HeroImg2Styles.css";
 
-
+import Typewriter from "typewriter-effect"
 import React, { Component } from 'react'
 
 class HeroImg2 extends Component {
@@ -8,8 +8,16 @@ class HeroImg2 extends Component {
     return(
         <div className="hero-img">
         <div className="heading">
-            <h1>{this.props.heading}</h1>
-            <p>{this.props.text}</p>
+            <h1> Contact</h1>
+            <p>
+            <Typewriter
+      options={{
+        strings: ["Let's have a chat!",  'Hire Me !!!'],
+        autoStart: true,
+        loop: true,
+      }}
+    /></p>
+      
         </div>
      
     </div>

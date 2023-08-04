@@ -2,7 +2,7 @@ import "./NavbarStyles.css"
 
 
 import React, {useState} from "react";
-import {Link} from "react-router-dom"
+import {Link} from "react-scroll"
 
 import {FaBars, FaTimes} from "react-icons/fa";
 
@@ -13,7 +13,7 @@ const Navbar = () => {
    const [color, setColor] = useState(false);
    const changeColor = () => {
     if(window.scrollY >= 100) {
-      setColor(true);
+      setColor(true); 
     }else{
       setColor(false);
     }
@@ -23,21 +23,22 @@ const Navbar = () => {
    
   return (
     <div className={color ? " header header-bg" : "header"}>
-        <Link to="/">
-        <h1>Omkar Mandal</h1>
+        <Link to="home"  spy={true} smooth={true} offset={50} duration={500}>
+        <h1 className="omkar">Omkar Mandal</h1>
         </Link>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li>
-                <Link to="/" >Home</Link>
+                <Link to="home" spy={true} smooth={true} offset={50} duration={500}>Home</Link>
             </li>
             <li>
-                <Link to="/project" >Project</Link>
+                <Link to="project" spy={true} smooth={true} offset={50} duration={500} >Project</Link>
             </li>
             <li>
-                <Link to="/about" >About</Link>
+                <Link to="about" spy={true} smooth={true} offset={50} duration={500}>About</Link>
             </li>
             <li>
-                <Link to="/contact" >Contact</Link>
+                <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact</Link>
+                
             </li>
             
           </ul>
