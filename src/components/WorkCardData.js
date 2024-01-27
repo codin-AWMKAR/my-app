@@ -13,19 +13,13 @@ const ProjectCardData = [
         view:"https://creative-smakager-68b481.netlify.app",
         source:"https://github.com/codin-AWMKAR/React-DashBoard",
      },
-     {
-        imgsrc: pro2,
-        title:"Spotify Clone App",
-        text:"The Spotify Clone App is a feature-rich web application developed using React and Tailwind CSS. It replicates the functionality and user interface of the popular music streaming platform, Spotify. The app leverages React components, state management, and API integration to deliver a seamless  experience. Users can explore  and discover new tracks, all within a visually appealing and responsive interface.The interface of the Spotify Clone App is sleek, modern, and user-friendly.",
-        view:"https://funny-babka-0f0c31.netlify.app",
-        source:"https://github.com/codin-AWMKAR/Spotify-Clone.git",
-     },
+     
      {
         imgsrc: pro3,
-        title:"Prometheus-News App",
-        text:"Prometheus is a sleek news app developed with React and Bootstrap, leveraging the power of the NewsAPI. It provides a seamless browsing experience, allowing users to explore the latest news across various categories. With its user-friendly interface, Prometheus offers real-time updates, personalized preferences, and advanced search functionalities. Stay informed with this comprehensive and convenient news app, delivering news articles from various sources.",
-        view:"https://poetic-choux-be83e2.netlify.app",
-        source:"https://codepen.io/omkarman-2003/pen/dygKBgK",
+        title:"TODOM",
+        text:"TODOM is a TO-DO app developed with MERN stack leveraging the power of Node.js and MongoDB for the Backend. It provides a seamless browsing experience, allowing users to Sign UP,Sign IN, Create,Read,Update and Delete Notes. With its user-friendly interface, TODOM offers real-time updates, personalized preferences, and advanced search functionalities.",
+        view:"https://todom-frontend-zuhz.vercel.app/",
+        source:"https://github.com/codin-AWMKAR/TODOM-FRONTEND.git",
      },
      {
       imgsrc: pro4,
