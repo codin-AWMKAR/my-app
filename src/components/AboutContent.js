@@ -1,7 +1,7 @@
 import "./AboutContentStyles.css";
 import React from 'react';
 import { Link } from "react-router-dom";
-import React1 from "../assets/react1.mp4";
+import React1 from "../assets/react1.jpg";
 import ResumePDF from "../assets/resume.pdf";
 
 const AboutContent = () => {
@@ -32,7 +32,7 @@ const AboutContent = () => {
       <div className="right">
         <div className="img-container">
           <div className="img-stack top">
-            <video src={React1} autoPlay loop muted className="img" alt="true"  />
+            <img src={React1} autoPlay loop muted className="img" alt="true"  />
           </div>
         </div>
       </div>

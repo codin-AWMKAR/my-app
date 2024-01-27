@@ -1,8 +1,10 @@
 import pro1 from "../assets/pro1.png"
-import pro2 from "../assets/pro2.png"
 import pro3 from "../assets/pro3.png"
 import pro4 from "../assets/pro4.png"
 import pro5 from "../assets/pro5.png"
+import pro6 from "../assets/pro6.png"
+import pro7 from "../assets/pro7.png"
+
 
 
 const ProjectCardData = [
@@ -17,7 +19,7 @@ const ProjectCardData = [
      {
         imgsrc: pro3,
         title:"TODOM",
-        text:"TODOM is a TO-DO app developed with MERN stack leveraging the power of Node.js and MongoDB for the Backend. It provides a seamless browsing experience, allowing users to Sign UP,Sign IN, Create,Read,Update and Delete Notes. With its user-friendly interface, TODOM offers real-time updates, personalized preferences, and advanced search functionalities.",
+        text:"TODOM, a robust TO-DO app powered by the MERN stack, harnesses the capabilities of Node.js and MongoDB for a dynamic backend. Users can seamlessly navigate, sign up, sign in, create, read, update, and delete notes. TODOM stands out with its intuitive interface, offering real-time updates, personalized preferences, and advanced search features. Elevate your productivity with TODOM, where simplicity meets powerful functionality for an efficient task management experience.",
         view:"https://todom-frontend-zuhz.vercel.app/",
         source:"https://github.com/codin-AWMKAR/TODOM-FRONTEND.git",
      },
@@ -35,6 +37,21 @@ const ProjectCardData = [
       view:"https://merry-crisp-8f164d.netlify.app",
       source:"https://codepen.io/omkarman-2003/pen/dygKBgK",
    },
+   {
+      imgsrc: pro6,
+      title:"ShowTime",
+      text:"Showtime, a user-friendly React app, simplifies your entertainment choices. Effortlessly rate and discover top shows and movies. With an intuitive interface, it ensures an enjoyable user experience. Dive into a world of cinematic excellence and TV brilliance. Explore, rate, and elevate your watchlist with Showtime – the perfect companion for every discerning viewer.",
+      view:"https://enchanting-speculoos-ff4a31.netlify.app/",
+      source:"https://github.com/codin-AWMKAR/tv-show-app.git",
+   },
+   {
+      imgsrc: pro7,
+      title:"Consultron INC.",
+      text:"Consultron, a dynamic consultancy website crafted with React, offers a comprehensive platform for clients seeking expert advice. Navigate our user-friendly interface to explore our diverse consulting services. From strategic insights to tailored solutions, Consultron is committed to delivering excellence. Engage with our interactive features and connect with experienced consultants. Elevate your business strategies with Consultron's modern and efficient web application.",
+      view:"https://zippy-bombolone-c90f4a.netlify.app/",
+      source:"https://github.com/codin-AWMKAR/brand-app.git",
+   },
+  
    
 ];
 
